@@ -1,0 +1,52 @@
+body {
+    background-color: royalblue;
+    color: white;
+    display: flex;
+}
+
+main {
+    margin: 0 auto;
+    width: 50vw;
+    min-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+p, li, #spoiler-text {
+    font-family: 'Delius', serif;
+}
+
+#truths-and-lie {
+    border: 2px greenyellow dashed;
+    padding: 5px 0 20px 10px;
+    margin-top: 30px;
+}
+
+#truths-and-lie > h2 {
+    text-align: center;
+}
+
+#spoiler-label {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+}
+
+#spoiler-text {
+    background-color: black;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    user-select: none;
+}
+
+#spoiler-text:hover {
+    background-color: unset;
+    color: white;
+    border: none;
+}
