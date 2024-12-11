@@ -5,13 +5,14 @@ body {
 }
 
 main {
-    margin: 0 auto;
-    width: 50vw;
+    margin: 10px auto 0;
+    width: 25vw;
     min-width: 600px;
 }
 
 h1 {
     text-align: center;
+    font-size: 64px;
 }
 
 h1, h2 {
@@ -22,14 +23,13 @@ p, li, #spoiler-text {
     font-family: 'Delius', serif;
 }
 
-#truths-and-lie {
-    border: 2px greenyellow dashed;
-    padding: 5px 0 20px 10px;
-    margin-top: 30px;
-}
-
-#truths-and-lie > h2 {
-    text-align: center;
+.section {
+    border: 2px white solid;
+    padding: 0 10px 20px;
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
 }
 
 #spoiler-label {
@@ -43,10 +43,10 @@ p, li, #spoiler-text {
     border-radius: 10px;
     border: 2px solid black;
     user-select: none;
+    padding: 0 5px;
 }
 
 #spoiler-text:hover {
     background-color: unset;
-    color: white;
     border: none;
 }
